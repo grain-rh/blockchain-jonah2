@@ -30,7 +30,7 @@ asset SampleAsset identified by assetId {
   o String value
 }
 
-transaction SampleTransaction {
+transaction SampleTransactionZ {
   --> SampleAsset asset
   o String newValue
 }
