@@ -19,10 +19,10 @@
 
 /**
  * Sample transaction
- * @param {org.graindiscovery.SampleTransaction} sampleTransaction
+ * @param {org.graindiscovery.SampleTransactionZ} sampleTransaction
  * @transaction
  */
-async function sampleTransaction(tx) {
+async function sampleTransactionZ(tx) {
     // Save the old value of the asset.
     const oldValue = tx.asset.value;
 
