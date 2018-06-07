@@ -27,7 +27,7 @@ rule EverybodyCanSubmitTransactions {
     description: "Allow all participants to submit transactions"
     participant: "org.graindiscovery.SampleParticipant"
     operation: CREATE
-    resource: "org.graindiscovery.SampleTransaction"
+    resource: "org.graindiscovery.SampleTransactionZ"
     action: ALLOW
 }
 
